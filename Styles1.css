@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+.header {
+    background: #007BFF;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    background: #FFC107;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.cta-btn:hover {
+    background: #FFD54F;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.about, .courses, .testimonials, .register {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.about h2, .courses h2, .testimonials h2, .register h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about p, .register p {
+    font-size: 1.1rem;
+}
+
+.courses .row, .testimonials .row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    background: #f4f4f4;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.column h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.column p {
+    font-size: 1rem;
+}
+
+.testimonials .column p {
+    font-style: italic;
+}
+
+.testimonials .column span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin: 0;
+}
